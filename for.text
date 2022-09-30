@@ -1,6 +1,6 @@
 일반for()
 
-for ~ in : for(let index in arr)
-for ~ of : for(let element of arr)
+for ~ in : for(let index in arr) - 인덱스 값
+for ~ of : for(let element of arr) - 요소 값
 배열.map((element, index) => {})
 배열.forEach((element, index) => {})
