@@ -1,0 +1,6 @@
+일반for()
+
+for ~ in : for(let index in arr)
+for ~ of : for(let element of arr)
+배열.map((element, index) => {})
+배열.forEach((element, index) => {})

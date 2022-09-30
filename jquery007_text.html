@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jquery007_text.html</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // value => val()
+        // innerText => text()
+        // innerHTML => html() : html형식으로 어떻게 쓰여진 코드인지 필요할 때 사용
+
+        let dnode1 = $('div').text();
+        console.log(`dnode1:${dnode1}`);
+        // dnode1:javascript
+
+        let dnode2 = $('div').html();
+        console.log(`dnode2:${dnode2}`);
+        // dnode2:<span>javascript</span>
+
+        let dnode3 = $('input').val();
+        console.log(`dnode3:${dnode3}`);
+        // dnode3:jquery
+      });
+    </script>
+  </head>
+  <body>
+    <button>click</button>
+    <div><span>javascript</span></div>
+    <input type="text" value="jquery" />
+  </body>
+</html>
