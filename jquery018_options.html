@@ -26,7 +26,7 @@
           let row = $('option:selected', this).index();
 
           if (row != 0) {
-            // 서브 메뉴 삭제
+            // 서브 메뉴 삭제 순서가 중요.
             $('#sub option.food').remove();
             // 서브 메뉴 추가
             arr[row - 1].map(function (element) {
